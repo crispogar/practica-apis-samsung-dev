@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica carga de fichero de vídeo</title>
+
+<!--  Aquí cargamos el CSS.  -->
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!--  Bloque de la llamada a la acción (h1).  -->
+
+    <h1>¡Sube aquí tu vídeo!</h1>
+
+<!--  Bloque para escoger el vídeo.  -->
+
+    <div id="main-div" class="content-wrapper">
+    <label for="file"></label>
+    <input type="file" class="select-video" id="file" name="file" accept="video/*">
+    <output id="video-output"></output>
+
+<!--  Controles del vídeo.  -->
+
+    <div id="controles" class="controles">
+        <button class="buttons" id="botonReproducir" style="visibility: hidden">Reproducir</button>
+        <button class="buttons" id="botonPausar" style="visibility: hidden">Pausar</button>
+        <button class="buttons" id="botonSubirvolumen" style="visibility: hidden">Subir volumen</button>
+        <button class="buttons" id="botonBajarvolumen" style="visibility: hidden">Bajar volumen</button>
+    </div>
+    </div>
+
+<!--  Aquí cargamos el código de Javascript.  -->
+
+<script src="main.js">
+</script>
+</body>
+</html>

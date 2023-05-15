@@ -1,0 +1,68 @@
+/*No cargamos ningún estilo 'pro'.*/
+
+/*Para body.*/
+
+body {
+  background-color: #c0dfe0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*Llamada a la acción.*/
+
+h1 {
+    color: #000000;
+    font-size: 30px;
+    margin-right: 200px;
+    height: 50px;
+    margin: auto; 
+    margin-top: 50px;
+    text-align: center;
+  }
+
+/*Bloque del vídeo.*/
+
+.content-wrapper {
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+    margin-top: 1px;
+}
+
+.thumbnail {
+  height: 400px;
+  margin-top: 15px;
+  visibility: hidden;
+  margin-bottom: 10px;
+}
+
+/*Bloque de controles + ajustes propios.*/
+
+.controles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.buttons {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #457b9d90;
+    border: 1px solid #1d355780;
+    width: auto;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: #19658b;
+}
